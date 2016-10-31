@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e3e3"
+    android:orientation="vertical">
+
+    <com.qiangxi.populareffect.view.FadeScrollView
+        android:id="@+id/fadeScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/banner_bg"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="内容1"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="内容2"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="内容3"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:text="内容4"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </com.qiangxi.populareffect.view.FadeScrollView>
+
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edit_text_shape_bg"
+        android:hint="请输入您要搜索的商品"
+        android:paddingLeft="10dp"/>
+
+</FrameLayout>
