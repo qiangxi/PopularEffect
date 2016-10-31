@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    android:id="@+id/activity_list_view_fade"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
 
-</RelativeLayout>
+    <com.qiangxi.populareffect.view.FadeListView
+        android:id="@+id/fadeListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/listViewTitleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edit_text_shape_bg"
+        android:hint="请输入您要搜索的商品"
+        android:paddingLeft="10dp" />
+</FrameLayout>

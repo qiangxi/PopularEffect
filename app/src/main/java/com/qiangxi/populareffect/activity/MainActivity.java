@@ -16,6 +16,7 @@ import com.jude.easyrecyclerview.EasyRecyclerView;
 import com.jude.easyrecyclerview.adapter.RecyclerArrayAdapter;
 import com.jude.easyrecyclerview.decoration.DividerDecoration;
 import com.qiangxi.populareffect.R;
+import com.qiangxi.populareffect.activity.listview.ListViewFadeActivity;
 import com.qiangxi.populareffect.activity.scrollview.ScrollViewFadeActivity;
 import com.qiangxi.populareffect.adapter.MainAdapter;
 import com.qiangxi.populareffect.base.BaseActivity;
@@ -48,7 +49,7 @@ public class MainActivity extends BaseActivity implements RecyclerArrayAdapter.O
         //滑动时,view元素发生位移的效果待定
         mList.add(new MainItemInfo("ScrollView滑动,标题栏颜色渐变", ScrollViewFadeActivity.class));
         mList.add(new MainItemInfo("ScrollView滑动,Child(0)缩放", ScrollViewFadeActivity.class));
-        mList.add(new MainItemInfo("ListView滑动,标题栏颜色渐变", ScrollViewFadeActivity.class));
+        mList.add(new MainItemInfo("ListView滑动,标题栏颜色渐变", ListViewFadeActivity.class));
         mList.add(new MainItemInfo("ListView滑动,头部子view缩放", ScrollViewFadeActivity.class));
         mList.add(new MainItemInfo("RecyclerView滑动,标题栏颜色渐变", ScrollViewFadeActivity.class));
         mList.add(new MainItemInfo("RecyclerView滑动,头部子view缩放", ScrollViewFadeActivity.class));

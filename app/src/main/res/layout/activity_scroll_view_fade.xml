@@ -63,7 +63,7 @@
     </com.qiangxi.populareffect.view.FadeScrollView>
 
     <RelativeLayout
-        android:id="@+id/titleLayout"
+        android:id="@+id/scrollViewTitleLayout"
         android:layout_width="match_parent"
         android:layout_height="90dp"
         />

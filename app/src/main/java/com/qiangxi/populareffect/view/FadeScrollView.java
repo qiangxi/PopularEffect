@@ -9,7 +9,7 @@ import com.qiangxi.populareffect.utli.ScreenUtils;
 
 /**
  * 作者 qiang_xi on 2016/10/31 17:37.
- * 颜色渐变的ScrollView
+ * 让指定view的背景颜色跟随滑动渐变的ScrollView
  */
 
 public class FadeScrollView extends ScrollView {

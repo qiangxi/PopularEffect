@@ -16,7 +16,7 @@ import butterknife.ButterKnife;
  */
 public class ScrollViewFadeActivity extends BaseActivity {
 
-    @Bind(R.id.titleLayout)
+    @Bind(R.id.scrollViewTitleLayout)
     RelativeLayout mTitleLayout;
     @Bind(R.id.fadeScrollView)
     FadeScrollView mFadeScrollView;
