@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">流行效果集合</string>
+    <string name="attention">(这是头部)项目中所有效果都是自己或他人的开源实现,他人的开源实现已经尽量标注原出处,实在找不到出处的标为"未知出处",所有效果肯定不止一种实现,这里只是提供其中一种实现方式</string>
 </resources>

@@ -1,12 +1,12 @@
 package com.qiangxi.populareffect.bean;
 
 /**
- * 作者 任强强 on 2016/10/31 12:34.
+ * 作者 qiang_xi on 2016/10/31 12:34.
  */
 
 public class MainItemInfo {
     private String itemDesc;
-    private Class<?> mClass;
+    private Class<?> mClass;//目标activity.class
 
     public MainItemInfo() {
     }

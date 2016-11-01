@@ -72,6 +72,7 @@ public class RecyclerViewFadeActivity extends BaseActivity {
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
                 super.onScrolled(recyclerView, dx, dy);
+                //实时获取头部view偏移量
                 int offsetY = Math.abs(imageView.getTop());
                 if (offsetY <= DEFAULT_OFFSET) {
                     mRecyclerViewTitleLayout.setBackgroundColor(Color.GREEN);

@@ -6,7 +6,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.qiangxi.populareffect.R;
-import com.qiangxi.populareffect.activity.SwipeBackActivity;
+import com.qiangxi.populareffect.activity.main.SwipeBackActivity;
 
 public class BaseActivity extends SwipeBackActivity {
 

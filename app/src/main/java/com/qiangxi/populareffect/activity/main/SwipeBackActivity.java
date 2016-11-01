@@ -1,4 +1,4 @@
-package com.qiangxi.populareffect.activity;
+package com.qiangxi.populareffect.activity.main;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

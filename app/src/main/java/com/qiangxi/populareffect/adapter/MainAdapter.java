@@ -14,7 +14,7 @@ import com.qiangxi.populareffect.bean.MainItemInfo;
 import java.util.List;
 
 /**
- * 作者 任强强 on 2016/10/31 12:24.
+ * 作者 qiang_xi on 2016/10/31 12:24.
  */
 
 public class MainAdapter extends RecyclerArrayAdapter<MainItemInfo> {

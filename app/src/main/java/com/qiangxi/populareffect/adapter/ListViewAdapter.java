@@ -56,7 +56,7 @@ public class ListViewAdapter extends BaseAdapter {
         return convertView;
     }
 
-     static class ViewHolder {
+    static class ViewHolder {
         @Bind(R.id.item_main_desc)
         TextView itemMainDesc;
 

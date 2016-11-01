@@ -1,4 +1,4 @@
-package com.qiangxi.populareffect.activity;
+package com.qiangxi.populareffect.activity.main;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -71,8 +71,7 @@ public class MainActivity extends BaseActivity implements RecyclerArrayAdapter.O
                 TextView textView = new TextView(MainActivity.this);
                 textView.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 300));
                 textView.setGravity(Gravity.CENTER_VERTICAL);
-                textView.setText("(这是头部)项目中所有效果都是自己或他人的开源实现,他人的开源实现已经尽量标注原出处," +
-                        "实在找不到出处的标为'未知出处',所有效果肯定不止一种实现,这里只是提供其中一种实现方式");
+                textView.setText(getString(R.string.attention));
                 textView.setTextColor(Color.BLACK);
                 textView.setTextSize(16);
                 return textView;

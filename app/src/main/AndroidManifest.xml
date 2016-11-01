@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/childStyle">
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.main.MainActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".base.BaseActivity" />
-        <activity android:name=".activity.SwipeBackActivity" />
+        <activity android:name=".activity.main.SwipeBackActivity" />
         <activity
             android:name=".activity.scrollview.ScrollViewFadeActivity"
             android:theme="@style/childStyle2" />

@@ -12,7 +12,7 @@ import android.view.WindowManager;
 /**
  * 获取屏幕宽高,像素值,px/dp/sp之间的相互转换,屏幕截图等
  *
- * @author 任强强
+ * @author qiang_xi
  *         创建于2016/1/5 20:12
  */
 public class ScreenUtils {
@@ -80,11 +80,9 @@ public class ScreenUtils {
         if (type == TYPE_DP) {
             float scale = context.getResources().getDisplayMetrics().density;
             return (int) (metrics.widthPixels / scale);
-        }
-        else if (type == TYPE_PX) {
+        } else if (type == TYPE_PX) {
             return metrics.widthPixels;
-        }
-        else {
+        } else {
             throw new IllegalArgumentException("type的值只能是TYPE_DP或TYPE_PX");
         }
 
@@ -103,11 +101,9 @@ public class ScreenUtils {
         if (type == TYPE_DP) {
             float scale = context.getResources().getDisplayMetrics().density;
             return (int) (metrics.heightPixels / scale);
-        }
-        else if (type == TYPE_PX) {
+        } else if (type == TYPE_PX) {
             return metrics.heightPixels;
-        }
-        else {
+        } else {
             throw new IllegalArgumentException("type的值只能是TYPE_DP或TYPE_PX");
         }
     }
@@ -131,8 +127,7 @@ public class ScreenUtils {
             bitmap = Bitmap.createBitmap(bmp, 0, 0, width, height);
             view.destroyDrawingCache();
             return bitmap;
-        }
-        else if (type == TYPE_NO_STATUS_BAR) {
+        } else if (type == TYPE_NO_STATUS_BAR) {
             Rect frame = new Rect();
             activity.getWindow().getDecorView().getWindowVisibleDisplayFrame(frame);
             int statusBarHeight = frame.top;
@@ -140,8 +135,7 @@ public class ScreenUtils {
                     - statusBarHeight);
             view.destroyDrawingCache();
             return bitmap;
-        }
-        else {
+        } else {
             throw new IllegalArgumentException("type的值只能是TYPE_NO_STATUS_BAR或TYPE_HAVE_STATUS_BAR");
         }
     }
