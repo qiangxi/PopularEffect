@@ -16,6 +16,7 @@ import com.jude.easyrecyclerview.EasyRecyclerView;
 import com.jude.easyrecyclerview.adapter.RecyclerArrayAdapter;
 import com.jude.easyrecyclerview.decoration.DividerDecoration;
 import com.qiangxi.populareffect.R;
+import com.qiangxi.populareffect.activity.animation.ExposeAnimationActivity;
 import com.qiangxi.populareffect.activity.listview.ListViewFadeActivity;
 import com.qiangxi.populareffect.activity.recyclerview.RecyclerViewFadeActivity;
 import com.qiangxi.populareffect.activity.scrollview.ScrollViewFadeActivity;
@@ -54,7 +55,7 @@ public class MainActivity extends BaseActivity implements RecyclerArrayAdapter.O
         mList.add(new MainItemInfo("ListView滑动,头部子view缩放", ScrollViewFadeActivity.class));
         mList.add(new MainItemInfo("RecyclerView滑动,标题栏颜色渐变", RecyclerViewFadeActivity.class));
         mList.add(new MainItemInfo("RecyclerView滑动,头部子view缩放", ScrollViewFadeActivity.class));
-        mList.add(new MainItemInfo("以所点击的view为中心向外逐渐扩散的方式打开新界面", ScrollViewFadeActivity.class));
+        mList.add(new MainItemInfo("以所点击的view为中心向外逐渐扩散的方式打开新界面", ExposeAnimationActivity.class));
     }
 
     private void initView() {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.qiangxi.populareffect">
+<manifest package="com.qiangxi.populareffect"
+          xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -12,22 +12,28 @@
             android:name=".activity.main.MainActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".base.BaseActivity" />
-        <activity android:name=".activity.main.SwipeBackActivity" />
+        <activity android:name=".base.BaseActivity"/>
+        <activity android:name=".activity.main.SwipeBackActivity"/>
         <activity
             android:name=".activity.scrollview.ScrollViewFadeActivity"
-            android:theme="@style/childStyle2" />
+            android:theme="@style/childStyle2"/>
         <activity
             android:name=".activity.listview.ListViewFadeActivity"
             android:theme="@style/childStyle2"/>
         <activity
             android:name=".activity.recyclerview.RecyclerViewFadeActivity"
             android:theme="@style/childStyle2"/>
+        <activity android:name=".activity.scrollview.ScrollViewZoomActivity">
+        </activity>
+        <activity android:name=".activity.animation.ExposeAnimationActivity">
+        </activity>
+        <activity android:name=".activity.animation.ExposeAnimationActivity2">
+        </activity>
     </application>
 
 </manifest>
