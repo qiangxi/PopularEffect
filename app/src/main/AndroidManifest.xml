@@ -34,6 +34,10 @@
         </activity>
         <activity android:name=".activity.animation.ExposeAnimationActivity2">
         </activity>
+        <activity android:name=".activity.slidingpanelayout.SlidingPaneLayoutActivity">
+        </activity>
+        <activity android:name=".activity.animation.LayoutAnimationActivity">
+        </activity>
     </application>
 
 </manifest>
