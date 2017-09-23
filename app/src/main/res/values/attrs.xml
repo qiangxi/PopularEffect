@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FadeScrollView">
+        <attr name="fadeHeight" format="dimension" />
+        <attr name="fadeColor" format="color" />
+        <attr name="fadeView" format="integer" />
+    </declare-styleable>
+</resources>

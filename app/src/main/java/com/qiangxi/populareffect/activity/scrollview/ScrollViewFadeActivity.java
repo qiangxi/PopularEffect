@@ -27,6 +27,6 @@ public class ScrollViewFadeActivity extends BaseActivity {
         setContentView(R.layout.activity_scroll_view_fade);
         ButterKnife.bind(this);
         setTranslucentStatus(true);
-        mFadeScrollView.bindView(mTitleLayout, Color.RED);
+        mFadeScrollView.setFadeView(mTitleLayout, Color.RED);
     }
 }

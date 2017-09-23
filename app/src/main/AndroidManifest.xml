@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.qiangxi.populareffect"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.qiangxi.populareffect">
 
     <application
         android:allowBackup="true"
@@ -11,11 +11,6 @@
         <activity
             android:name=".activity.main.MainActivity"
             android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity android:name=".base.BaseActivity"/>
         <activity android:name=".activity.main.SwipeBackActivity"/>
@@ -37,6 +32,16 @@
         <activity android:name=".activity.slidingpanelayout.SlidingPaneLayoutActivity">
         </activity>
         <activity android:name=".activity.animation.LayoutAnimationActivity">
+        </activity>
+        <activity android:name=".activity.CustomViewPagerActivity">
+
+        </activity>
+        <activity android:name=".activity.BounceScrollViewAcivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
     </application>
 
