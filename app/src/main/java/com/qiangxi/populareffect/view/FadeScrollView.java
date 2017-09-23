@@ -23,7 +23,7 @@ import android.view.View;
 import android.widget.ScrollView;
 
 import com.qiangxi.populareffect.R;
-import com.qiangxi.populareffect.utli.ScreenUtils;
+import com.qiangxi.populareffect.utli.S;
 
 /**
  * 作者 qiang_xi on 2016/10/31 17:37.
@@ -77,7 +77,7 @@ public class FadeScrollView extends ScrollView {
      * @param colorResId 要进行渐变的颜色
      */
     public void setFadeView(View view, int colorResId) {
-        setFadeView(view, colorResId, ScreenUtils.dpToPx(getContext(), DEFAULT_OFFSET));
+        setFadeView(view, colorResId, S.dpToPx(getContext(), DEFAULT_OFFSET));
     }
 
     /**

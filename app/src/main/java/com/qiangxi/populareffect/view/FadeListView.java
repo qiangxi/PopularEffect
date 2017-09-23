@@ -20,7 +20,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ListView;
 
-import com.qiangxi.populareffect.utli.ScreenUtils;
+import com.qiangxi.populareffect.utli.S;
 
 /**
  * Created by qiang_xi on 2016/10/31 20:21.
@@ -66,7 +66,7 @@ public class FadeListView extends ListView {
      * @param colorResId    要进行渐变的颜色
      */
     public void bindView(View fadeView, View firstHeadView, int colorResId) {
-        bindView(fadeView, firstHeadView, colorResId, ScreenUtils.dpToPx(getContext(), DEFAULT_OFFSET));
+        bindView(fadeView, firstHeadView, colorResId, S.dpToPx(getContext(), DEFAULT_OFFSET));
     }
 
     /**
