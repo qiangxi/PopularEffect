@@ -1,4 +1,4 @@
-package com.qiangxi.populareffect.activity;
+package com.qiangxi.populareffect.activity.viewpager;
 
 import android.databinding.DataBindingUtil;
 import android.graphics.Color;

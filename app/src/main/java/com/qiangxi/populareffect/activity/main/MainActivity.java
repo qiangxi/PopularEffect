@@ -20,8 +20,10 @@ import com.qiangxi.populareffect.activity.animation.ExposeAnimationActivity;
 import com.qiangxi.populareffect.activity.animation.LayoutAnimationActivity;
 import com.qiangxi.populareffect.activity.listview.ListViewFadeActivity;
 import com.qiangxi.populareffect.activity.recyclerview.RecyclerViewFadeActivity;
+import com.qiangxi.populareffect.activity.scrollview.BounceScrollViewAcivity;
 import com.qiangxi.populareffect.activity.scrollview.ScrollViewFadeActivity;
 import com.qiangxi.populareffect.activity.slidingpanelayout.SlidingPaneLayoutActivity;
+import com.qiangxi.populareffect.activity.viewpager.CustomViewPagerActivity;
 import com.qiangxi.populareffect.adapter.MainAdapter;
 import com.qiangxi.populareffect.base.BaseActivity;
 import com.qiangxi.populareffect.bean.MainItemInfo;
@@ -60,12 +62,14 @@ public class MainActivity extends BaseActivity implements RecyclerArrayAdapter.O
         mList.add(new MainItemInfo("以所点击的view为中心向外逐渐扩散的方式打开新界面", ExposeAnimationActivity.class));
         mList.add(new MainItemInfo("V4.SlidingPaneLayoutActivity", SlidingPaneLayoutActivity.class));
         mList.add(new MainItemInfo("布局动画", LayoutAnimationActivity.class));
+        mList.add(new MainItemInfo("越界回弹ScrollView", BounceScrollViewAcivity.class));
+        mList.add(new MainItemInfo("自动回调ViewPager", CustomViewPagerActivity.class));
     }
 
     private void initView() {
         mAdapter = new MainAdapter(this, mList);
         mRecycleView.setLayoutManager(new LinearLayoutManager(this));
-        DividerDecoration decoration = new DividerDecoration(Color.RED, 1);
+        DividerDecoration decoration = new DividerDecoration(Color.parseColor("#eeeeee"), 1);
         decoration.setDrawHeaderFooter(true);
         mRecycleView.addItemDecoration(decoration);
         mRecycleView.setAdapter(mAdapter);
