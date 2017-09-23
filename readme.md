@@ -1,17 +1,48 @@
-#该项目主要包含当下流行的app交互效果,长期更新...
+# PopularEffect:（汇集当下各种流行的效果实现，长期更新...）
+### 项目简介
+> 顾名思义，该项目是一个包含当下流行效果的项目（主要是UI效果），但是该项目与其他类似项目有所不同，本项目除了附加各种效果的开源项目地址（如果有的话），更加侧重于分析各种效果的实现方式，每种效果可能会有多种实现方式，我会尽量把每种实现方式都分析到，然后尽量都写一个样例出来。  
 
-##遵循的原则是:能用Android原生代码实现的就尽量不用开源代码实现,毕竟自5.0以后Android原生的交互效果已经很强大了.项目中所有效果都是自己或他人的开源实现,他人的开源实现已经尽量标注原出处,实在找不到出处的标为"未知出处",所有效果肯定不止一种实现,这里只是提供其中一种实现方式.如果小伙伴对于某个效果有更好的实现方式或者对代码的优化等,欢迎Fork之后进行Pull request.本码农非常希望能和大家一起完成这个效果库.  
-###2016-11-01 新增ScrollView,ListView,RecyclerView上下滑动时标题栏颜色渐变效果  
+### 关于该项目
+该项目是我一直想重点维护却没精力维护的一个项目，项目创建都快一年了，还是寥寥的几个效果实现，主要就在于分析各种效果并写出样例十分十分的消耗精力，再加上彼时个人能力的问题，一直无力维护，现今个人能力有略微提升，想重拾该项目，继续当时的梦想。
 
-ScrollView上下滑动时标题栏颜色渐变效果,对应项目中ScrollViewFadeActivity类  
+### 该项目写作思路
+1. 确定一个效果
+2. 思考该效果的实现
+3. 查阅是否有开源实现并分析实现原理
+4. 基于各种实现方式编写样例
+5. 编写对应的readme文档
 
-![ScrollView上下滑动时标题栏颜色渐变效果 ](https://github.com/qiangxi/PopularEffect/blob/master/gif/device-2016-11-01-115509.gif)  
+### 版权问题
+本项目基于[apache 2.0协议](http://www.apache.org/licenses/LICENSE-2.0)，所以理论上你可以复制粘贴本项目中的样例源码或者用于商业用途，毕竟该项目也得益于他人的开源实现，但个人仍希望能保留出处以及署名（不管是我个人的还是其他作者的）。
 
-ListView上下滑动时标题栏颜色渐变效果,对应项目中ListViewFadeActivity类  
+### 关于PR
+非常欢迎，但请遵循【该项目写作思路】之要求。
 
-![ListView上下滑动时标题栏颜色渐变效果 ](https://github.com/qiangxi/PopularEffect/blob/master/gif/device-2016-11-01-115541.gif)  
+### 目前包含的效果
+[上下滚动时，标题栏透明度渐变]()  
+[越界回弹]()  
+[ViewPager滑动跳转]()  
+[侧滑返回]()  
 
-RecyclerView上下滑动时标题栏颜色渐变效果,对应项目中RecyclerViewFadeActivity类  
 
-![RecyclerView上下滑动时标题栏颜色渐变效果 ](https://github.com/qiangxi/PopularEffect/blob/master/gif/device-2016-11-01-115607.gif)  
 
+
+
+
+```
+/*
+ * Copyright © qiangxi(任强强)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+```
