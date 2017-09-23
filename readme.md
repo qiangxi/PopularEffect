@@ -19,7 +19,7 @@
 非常欢迎，但请遵循【该项目写作思路】之要求。
 
 ### 目前包含的效果
-[上下滚动时，标题栏透明度渐变]()  
+[上下滚动时，标题栏透明度渐变](https://github.com/qiangxi/PopularEffect/blob/master/doc/%E4%B8%8A%E4%B8%8B%E6%BB%9A%E5%8A%A8%E6%97%B6%EF%BC%8C%E6%A0%87%E9%A2%98%E6%A0%8F%E9%80%8F%E6%98%8E%E5%BA%A6%E6%B8%90%E5%8F%98.md)  
 [越界回弹]()  
 [ViewPager滑动跳转]()  
 [侧滑返回]()  
