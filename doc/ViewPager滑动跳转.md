@@ -12,7 +12,7 @@
 2. 用于轮播图，当轮播图处于最后一页或第一页时，再继续向左或向右滑动，则跳转到其他的tab或界面中。（如建行首页的轮播图，掘金的顶部tab等）
 
 ### 效果图
-[效果图]()
+![效果图](https://github.com/qiangxi/PopularEffect/blob/master/gif/GIF004.gif?raw=true)
 
 ### 实现原理
 继承ViewPager，重写`onTouchEvent(MotionEvent ev)`方法，在该方法中进行左右滑动的判断。
@@ -44,5 +44,5 @@ public boolean onTouchEvent(MotionEvent ev) {
 ```
 
 ### 样例路径
-[]()
-[]()
+[CustomViewPager](https://github.com/qiangxi/PopularEffect/blob/master/app/src/main/java/com/qiangxi/populareffect/view/CustomViewPager.java)
+[CustomViewPagerActivity](https://github.com/qiangxi/PopularEffect/blob/master/app/src/main/java/com/qiangxi/populareffect/activity/viewpager/CustomViewPagerActivity.java)
