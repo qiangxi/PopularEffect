@@ -45,4 +45,5 @@ public boolean onTouchEvent(MotionEvent ev) {
 
 ### 样例路径
 [CustomViewPager](https://github.com/qiangxi/PopularEffect/blob/master/app/src/main/java/com/qiangxi/populareffect/view/CustomViewPager.java)
+
 [CustomViewPagerActivity](https://github.com/qiangxi/PopularEffect/blob/master/app/src/main/java/com/qiangxi/populareffect/activity/viewpager/CustomViewPagerActivity.java)

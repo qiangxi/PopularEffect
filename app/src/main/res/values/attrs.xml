@@ -5,4 +5,10 @@
         <attr name="fadeColor" format="color" />
         <attr name="fadeView" format="integer" />
     </declare-styleable>
+
+
+    <declare-styleable name="ArcLayout">
+        <attr name="arcHeight" format="dimension" />
+        <attr name="arcColor" format="color" />
+    </declare-styleable>
 </resources>

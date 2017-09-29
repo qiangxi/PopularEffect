@@ -39,10 +39,10 @@
         <activity android:name=".activity.animation.LayoutAnimationActivity">
         </activity>
         <activity android:name=".activity.viewpager.CustomViewPagerActivity">
-
         </activity>
         <activity android:name=".activity.scrollview.BounceScrollViewAcivity">
-
+        </activity>
+        <activity android:name=".activity.layout.ArcLayoutActivity">
         </activity>
     </application>
 

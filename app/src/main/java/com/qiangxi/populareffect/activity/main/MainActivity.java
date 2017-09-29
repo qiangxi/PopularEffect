@@ -18,6 +18,7 @@ import com.jude.easyrecyclerview.decoration.DividerDecoration;
 import com.qiangxi.populareffect.R;
 import com.qiangxi.populareffect.activity.animation.ExposeAnimationActivity;
 import com.qiangxi.populareffect.activity.animation.LayoutAnimationActivity;
+import com.qiangxi.populareffect.activity.layout.ArcLayoutActivity;
 import com.qiangxi.populareffect.activity.listview.ListViewFadeActivity;
 import com.qiangxi.populareffect.activity.recyclerview.RecyclerViewFadeActivity;
 import com.qiangxi.populareffect.activity.scrollview.BounceScrollViewAcivity;
@@ -64,6 +65,7 @@ public class MainActivity extends BaseActivity implements RecyclerArrayAdapter.O
         mList.add(new MainItemInfo("布局动画", LayoutAnimationActivity.class));
         mList.add(new MainItemInfo("越界回弹ScrollView", BounceScrollViewAcivity.class));
         mList.add(new MainItemInfo("自动回调ViewPager", CustomViewPagerActivity.class));
+        mList.add(new MainItemInfo("ArcLayout", ArcLayoutActivity.class));
     }
 
     private void initView() {
