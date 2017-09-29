@@ -18,7 +18,7 @@
 使用场景很多很多，比如美团主页（底部凹陷弧形），ofo主页（顶部凸起弧形）等
 
 ### 效果图
-![效果图]()
+![效果图](https://github.com/qiangxi/PopularEffect/blob/master/gif/image001.png?raw=true)
 
 ### 实现原理
 核心原理就是二阶贝塞尔曲线的使用；并且由于是继承自ViewGroup实现，
@@ -46,6 +46,6 @@ Github上还有一种实现方式，虽然也是采用贝塞尔曲线，但却�
 ```
 
 ### 样例路径
-[ArcLayout]()
+[ArcLayout](https://github.com/qiangxi/PopularEffect/blob/master/app/src/main/java/com/qiangxi/populareffect/view/ArcLayout.java)
 
-[ArcLayoutActivity]()
+[ArcLayoutActivity](https://github.com/qiangxi/PopularEffect/blob/master/app/src/main/java/com/qiangxi/populareffect/activity/layout/ArcLayoutActivity.java)
