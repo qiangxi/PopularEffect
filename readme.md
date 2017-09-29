@@ -23,6 +23,8 @@
 [越界回弹](https://github.com/qiangxi/PopularEffect/blob/master/doc/%E8%B6%8A%E7%95%8C%E5%9B%9E%E5%BC%B9.md)  
 [ViewPager滑动跳转](https://github.com/qiangxi/PopularEffect/blob/master/doc/ViewPager%E6%BB%91%E5%8A%A8%E8%B7%B3%E8%BD%AC.md)  
 [侧滑返回](https://github.com/qiangxi/PopularEffect/blob/master/doc/%E4%BE%A7%E6%BB%91%E8%BF%94%E5%9B%9E.md)  
+[ArcLayout(弧形布局)](https://github.com/qiangxi/PopularEffect/blob/master/doc/ArcLayout%EF%BC%88%E5%BC%A7%E5%BD%A2%E5%B8%83%E5%B1%80%EF%BC%89%E6%95%88%E6%9E%9C.md)  
+
 
 
 
