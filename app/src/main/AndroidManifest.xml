@@ -44,6 +44,8 @@
         </activity>
         <activity android:name=".activity.layout.ArcLayoutActivity">
         </activity>
+        <activity android:name=".activity.viewpager.CustomViewPagerActivity02">
+        </activity>
     </application>
 
 </manifest>
